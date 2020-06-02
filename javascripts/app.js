@@ -15,7 +15,11 @@ const main = function(){
         content.addClass("card-text")
         content.text(flashCards[ind].front)
         $(cardDiv).on("click", function(){
-            content.text(flashCards[ind].back)
+            if (content.text() === flashCards[ind].front) {
+                content.text(flashCards[ind].back)
+            } else {
+                content.text(flashCards[ind].front)
+            }
         })
     }
     
