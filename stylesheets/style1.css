@@ -1,0 +1,74 @@
+/*comments */
+* {
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body {
+    background: #f9e933;
+    
+}
+main {
+    background: white;
+    overflow: auto
+}
+
+.container {
+    max-width: 855px;
+    margin: auto;
+    padding: 20px;
+
+}
+.card-input {
+    clear: both;
+}
+h1 {
+    color: maroon;
+    font-family: 'Ubuntu', serif;
+}
+ ul {
+     padding-left: 30px;
+ }
+p {
+    margin: 10px
+}
+a {
+    color: cornflowerblue;
+    text-decoration: none; /*remove default underline*/
+}
+
+a:visited { /*pseudoclass*/
+    color: tomato;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header, main, footer {
+    min-width: 855px;
+}
+
+header {
+    background: white;
+    overflow: auto;
+}
+header nav {
+    float: right;
+    width: 285px;
+}
+header h1 {
+    float: left;
+    width: 570px;
+}
+.cont-left {
+    float: left;
+    width: 570px; 
+    padding: 20px;
+}
+.img-div {
+    float:right;
+    width: 285px;
+  
+}

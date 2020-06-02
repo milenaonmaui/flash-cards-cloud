@@ -3,35 +3,43 @@
     <head>
         <meta charset="utf-8"/>
         <title>Amazing Flash Cards!</title>
+        <link href="stylesheets/reset.css" rel="stylesheet" type="text/css">
+        <link href = "stylesheets/style.css" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>    
     </head>
     <body>
         <header>
-            <h1>Amazing Flash Cards!</h1>
-            <nav>
-                <a href="#">Sign Up!</a> |
-                <a href="#">FAQ</a> |
-                <a href="#">Support</a>
-            </nav>
-            
+            <div class="container">
+                <h1>Amazing Flash Cards!</h1>
+                <nav>
+                    <a href="#">Sign Up!</a> |
+                    <a href="#">FAQ</a> |
+                    <a href="#">Support</a>
+                </nav>
+            </div>
         </header>
         <main>
-            <h2>Create your own flashcards!</h2>
-            <p>I love flashcards! I always like to have a little stack of flashcards in my pockets in case I am stuck in line or waiting 
-                somewhere and want to do something usefult wiht my time.</p>
-            <h3>Here is why you need flash cards</h3>
-            <ul>
-                <li>It helps you study</li>
-                <li>You can take them anywhere</li>
-                <li>You can make good use of time spent waiting somewhere or sitting in a bus</li>
-                <img src="flashcards.png" alt = "an image of a flashcard stack">
-            </ul>
-
+            <div class="container">
+                <div class="tabs">
+                    <a href="#"><span class="active">Bottom</span></a>
+                    <a href="#"><span>Top</span></a>
+                    <a href="#"><span>Add</span></a>
+                </div>
+                <div class="content">
+                    
+                </div>
+                
+            </div>
+          
         </main>
         <footer>
-            <div class="contact">
-                <h5>Contact Us</h5>
-                <p>Flashcards</p>
-            </div>
+            <div class="container">
+                <div class="contact">
+                    <h5>Contact Us</h5>
+                    <p>Flashcards</p>
+                </div>
+            
             <div class = "sitemap">
                 <h5>Sitemap</h5>
                 <ul>
@@ -40,6 +48,13 @@
                     <li><a href="#">FAQ</a></li>
                 </ul>
             </div>
+        </div>
         </footer>
+        <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
+        
+        <script src="javascripts/app.js"></script>
     </body>
 </html>
